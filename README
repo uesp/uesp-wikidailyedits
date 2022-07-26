@@ -1,13 +1,13 @@
 
 DailyEdits is a very basic MediaWiki extension that displays a table/graph of the edits made to the wiki
 on a per-day basis. It was specifically created for the UESP.net wiki and while installation else where is
-not specifically supported the basic installation is given below.
+not exactly supported the basic installation is given below.
 
 For more information about this extension contact Dave Humphrey at dave@uesp.net
 
 INSTALLATION
 
-1. Install extension life a typical MediaWiki extension.
+1. Install extension like a typical MediaWiki extension.
 2. Install gnuplot (yum install gnuplot or similar command).
 3. Set the $wgDailyEditsGraphFile config global in LocalSettings.php to a URL where the daily graph file 
    can be accessed publically. For example:
